@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mon premiere formulaire</title>
+</head>
+
+<body>
+
+<form>
+<h1> Votre Avis Nous Intéresse </h1>
+<Style>
+.container{
+Display: flex;
+}
+</style>
+<div class=container>
+
+<fieldset>
+<legend>Information Personnelle</legend>
+<ol>
+<li>Nom  <input type="text" name="Nom" maxlength="25"/></li>
+<li>Date de naissance  <input name="Date de naissance" type="date" required="" maxlength="25" /></li>
+<li>Site <input type="text" name="salaire" id="salaire" placeholder="http://monsite.com" maxlength="25" /></li>
+
+<li>Emploi <input type="text" name="Nom" maxlength="25"/></li>
+<li>Aprox. salaire Annuel</li>
+
+<input type="number" name="salaire" placeholder="$" id="score" maxlength="25"/><br/>
+</ol>
+</fieldset>
+<fieldset>
+<legend>Information de contact</legend>
+<ol>
+<li>Adresse Line 1<br>
+
+<input type="address" name="Adresse Line 1" id="Adresse Line 1" value=""/><br/>
+<li>Adresse Line 2</li>
+<input type="address" name="Adresse Line 2" id="Adresse Line 2" value=""/><br/>
+
+<li>pays  <input type="text" name="pays" maxlength="25"/></li>
+
+
+<li>Tel
+<input type="number" name="Tel" id="Tel" placeholder="eg: +213 67..."/></li>
+<li>Courriel
+<input type="email" name="Courriel" id="Courriel" required="" maxlength="25"/></li><br
+</fieldset>
+
+</div>
+<div class="Préférences">
+<h2>Préférences </h2>
+<p>Choisir une couleur <input type="color" required="" /></p><br>
+Sur une échelle de 1 à 10, quel est votre degré d'enthousiasme pour HTML5?
+<input type="range" required="" /><br>
+<input type="submit" value="Envoyer">
+</div>
+
+</body>
+</html>
